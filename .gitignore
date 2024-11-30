@@ -1,0 +1,68 @@
+# Ignore node_modules (for Node.js projects)
+node_modules/
+
+# Ignore Python cache and virtual environment files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.whl
+.Python
+env/
+venv/
+
+# Ignore compiled Java files
+*.class
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+*.swo
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+desktop.ini
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore build artifacts
+/dist/
+/build/
+/target/
+/out/
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore coverage reports
+coverage/
+*.coverage
+.nyc_output/
+
+# Ignore compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore misc generated files
+*.lock
+*.iml
+*.jar
+*.war
+*.apk
+*.ipynb_checkpoints/
+
+# Ignore virtual environment
+.venv/
